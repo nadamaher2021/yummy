@@ -1,0 +1,187 @@
+.home{
+  height: 100vh;
+ 
+}
+
+.loading-screen,.inner-loading-screen{
+  z-index: 999;
+}
+
+#navbar{
+  
+    position: fixed;
+    top:0 ; 
+    bottom: 0;
+    z-index: 9999;
+    display:flex;
+
+}
+.navList li:hover{
+  color: #de4807;
+}
+
+li{
+  color: aliceblue;
+}
+      @keyframes rotate {
+        0% {
+          transform: translate(-50%, -50%) rotateZ(0deg);
+        }
+        100% {
+          transform: translate(-50%, -50%) rotateZ(360deg);
+        }
+      }
+
+      @keyframes rotateccw {
+        0% {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        100% {
+          transform: translate(-50%, -50%) rotate(-360deg);
+        }
+      }
+
+      @keyframes spin {
+        0%,
+        100% {
+          box-shadow: .2em 0px 0 0px currentcolor;
+        }
+        12% {
+          box-shadow: .2em .2em 0 0 currentcolor;
+        }
+        25% {
+          box-shadow: 0 .2em 0 0px currentcolor;
+        }
+        37% {
+          box-shadow: -.2em .2em 0 0 currentcolor;
+        }
+        50% {
+          box-shadow: -.2em 0 0 0 currentcolor;
+        }
+        62% {
+          box-shadow: -.2em -.2em 0 0 currentcolor;
+        }
+        75% {
+          box-shadow: 0px -.2em 0 0 currentcolor;
+        }
+        87% {
+          box-shadow: .2em -.2em 0 0 currentcolor;
+        }
+      }
+      .left-side {  background-color: #0D0D0D;
+      }
+      .py-2,p{
+        box-sizing: border-box;
+color: rgb(249, 246, 246);
+cursor: pointer;
+
+font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size :16px;
+
+font-weight :400;
+height: 40px;
+line-height :24px;
+      }
+      .fa-brands{
+        box-sizing :border-box;
+color: rgb(249, 246, 246);
+cursor :pointer;
+
+font-family :"Font Awesome 6 Brands";
+font-size: 16px;
+font-style: normal;
+      }
+      .fa-solid{
+        box-sizing :border-box;
+        color: rgb(249, 246, 246);
+        cursor :pointer;
+        
+        font-family :"Font Awesome 6 Free";
+        font-size: 16px;
+        font-style: normal;
+      }
+      .rightSide{
+background-color: #FF3D00;
+width: 20%;
+      }
+      .logo
+      {
+       
+            width: 50px;
+       
+      }
+      body{
+        overflow:hidden;
+        background-color: black;
+      }
+      .links li {
+        position: relative;
+        cursor: pointer;
+        transition: color 0.8s ease ;
+        width: fit-content;
+    }
+ 
+    .meal{
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+   
+  }
+  .meal img{
+      border-radius: 10px;
+  }
+  .meal:hover img{
+    transform: scale(1.2);transition: all 1s 0s;
+  transition: all 1s;
+}
+  .layer{
+      position: absolute;
+      border-radius: 10px;
+      top: 100%;
+      width: 100%;
+      height: 100%;
+      transition: all 0.9s;  
+      display: flex;
+      align-items: center;
+  }
+  
+  .meal:hover .layer{
+      top: 0;
+       
+  }
+
+  
+  .desc{
+      font-size: 17px;
+      color: black;
+   }
+  
+  .mealTwo{
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  .mealTwo img{
+      border-radius: 10px;
+  }
+  .layerTwo{
+      position: absolute;
+      border-radius: 10px;
+      top: 100%;
+      width: 100%;
+      height: 100%;
+      transition: all 0.8s;  
+  }
+  .mealTwo:hover .layerTwo{
+      top: 0;
+  
+    }
+ h2{
+  
+    color: black;
+ }
+
+.navlist li:hover{
+  color: #de4807;
+}
